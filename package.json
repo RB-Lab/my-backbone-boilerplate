@@ -1,0 +1,31 @@
+{
+  "name": "",
+  "version": "0.0.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "bindpolyfill": "0.0.0",
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "karma": "^0.12.36",
+    "karma-chai": "^0.1.0",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "karma-requirejs": "^0.2.2",
+    "karma-script-launcher": "^0.1.0",
+    "karma-sinon": "^1.0.4",
+    "mocha": "^2.2.5",
+    "phantomjs": "^1.9.17",
+    "require-dir": "^0.3.0",
+    "requirejs": "^2.1.18",
+    "sinon": "^1.15.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "start": "gulp",
+    "test": "./node_modules/karma/bin/karma start"
+  }
+}
