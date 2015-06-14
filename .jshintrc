@@ -11,5 +11,5 @@
 	"unused": true,
 	"trailing": true,
 	"white": true,
-	"predef": ["define", "beforeEach", "describe", "it", "expect", "sinon"]
+	"predef": ["define", "beforeEach", "afterEach", "describe", "it", "expect", "sinon"]
 }
